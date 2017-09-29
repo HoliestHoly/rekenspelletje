@@ -3,7 +3,7 @@ body{
 }
 
 #container{
- background-color: yellow;
+ background-color: lightgray;
  width: 800px;
  height: 450px;
  margin: 50px auto;
@@ -16,22 +16,41 @@ body{
   grid-row: 1;
   grid-column: 2/3;
   background-color: crimson;
+  text-align: center;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  font-family: sans-serif;
+
 }
 
 #answer{
   grid-row: 2;
   grid-column: 2/3;
   background-color: lime;
+  text-align: center;
+  font-family: sans-serif;
 }
 #feedback{
   grid-row: 3;
   grid-column: 2/3;
   background-color: hotpink;
+  font-size: 25px;
+  text-align: center;
+  font-family: cursive;
 }
 #score{
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 3;
   background-color: burlywood;
+  text-align: center;
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 22px;
+}
+#currentLevel{
+  grid-row: 2;
+  grid-column: 3;
 }
 #level{
   grid-row: 3;
